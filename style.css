@@ -1,0 +1,39 @@
+
+#container{
+    box-shadow: 2px 2px 19px ;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 50%;
+    margin: auto;
+        }
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid;
+    background: #e3e3e3;
+    width: 620px;
+}
+.head{
+    margin: 8px;
+}
+h1{
+    margin-right: 100px;
+}
+textarea{
+    height: 395px;
+    width: 617px;
+    border: none;
+    background: #fbfbfb;
+    outline: none;
+   
+}
+button {
+    padding: 5px;
+    width: 40px;
+}
+input[type=number]{
+    padding: 5px;
+    width: 40px;
+}
