@@ -1,36 +1,32 @@
- 
+
 function fontSize(e) {
     let value = e.value;
     TextArea.style.fontSize = value + "px";
 }
-
-
     function textBold(){
-        var target = document.getElementById("TextArea");
-        if( target.style.fontWeight == "bolder" ) {
-            target.style.fontWeight = "normal";
+        var myText = document.getElementById("TextArea");
+        if( myText.style.fontWeight == "bold" ) {
+            myText.style.fontWeight = "normal";
         } else {
-            target.style.fontWeight = "bolder";
+            myText.style.fontWeight = "bold";
         }
     }
-    
-    
-    
+
     function textItalic(){
-        var target = document.getElementById("TextArea");
-        if( target.style.fontStyle == "italic" ) {
-            target.style.fontStyle = "normal";
+        var myText = document.getElementById("TextArea");
+        if( myText.style.fontStyle == "italic" ) {
+            myText.style.fontStyle = "normal";
         } else {
-            target.style.fontStyle = "italic";
+            myText.style.fontStyle = "italic";
         }
     }
     
     function textUnderline(){
-        var target = document.getElementById("TextArea");
-        if( target.style.textDecoration == "underline" ) {
-            target.style.textDecoration = "none";
+        var myText = document.getElementById("TextArea");
+        if( myText.style.textDecoration == "underline" ) {
+            myText.style.textDecoration = "none";
         } else {
-            target.style.textDecoration = "underline";
+            myText.style.textDecoration = "underline";
         }
     }
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,21 +9,27 @@
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
 </head>
+
 <body>
     <div id="container">
 
-    <div id="header">
-    <div class="head"><h1>Text Editor</h1></div>
-<div class="head"><input type="number" onchange="fontSize(this)" value="16" min="1" max="100" id="fontChange"></div>
-<div class="head"><button onclick="textBold()">B</button></div>
-<div class="head"><button onclick="textItalic()">I</button></div>
-<div class="head"><button onclick="textUnderline()">U</button></div>
-<div class="head"><button onclick="textCapitalize(this)">Aa</button></div>
+        <div id="header">
+            <div class="head">
+                <h1>Text Editor</h1>
+            </div>
+         
+            <div class="head"><input type="number" onchange="fontSize(this)" value="16" min="1" max="100"
+                    id="fontChange"></div>
+            <div class="head"><button onclick="textBold()">B</button></div>
+            <div class="head"><button onclick="textItalic()">I</button></div>
+            <div class="head"><button onclick="textUnderline()">U</button></div>
+            <div class="head"><button onclick="textCapitalize(this)">Aa</button></div>
+     
+        </div>
+            <div id="section">
+                <textarea name="" id="TextArea"></textarea>
+            </div>
     </div>
-
-    <div id="section">
-<textarea name="" id="TextArea" ></textarea>
-    </div>
-</div>
 </body>
+
 </html>
